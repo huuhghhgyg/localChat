@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:localChat"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" Closing="Window_Closing">
+        Title="MainWindow" Height="350" Width="525" Closing="Window_Closing" Icon="pack://siteoforigin:,,,/Resources/LAN.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="57*"/>
@@ -14,14 +14,14 @@
         <TextBlock x:Name="fitness" HorizontalAlignment="Left" TextWrapping="Wrap" Text="状态" VerticalAlignment="Top" Margin="10,10,0,0"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="ip" VerticalAlignment="Top" Margin="10,30,0,0"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="port" VerticalAlignment="Top" Margin="10,61,0,0"/>
-        <TextBox x:Name="ipText" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="39,22,0,0" Text="127.0.0.1"/>
-        <TextBox x:Name="portText" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="39,53,0,0" Text="3000"/>
-        <Button x:Name="button" Content="Go" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="86,139,0,0" Click="button_Click"/>
+        <TextBox x:Name="ipText" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="39,22,11.667,0" Text="127.0.0.1"/>
+        <TextBox x:Name="portText" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="39,53,11.667,0" Text="3000"/>
+        <Button x:Name="button" Content="Go" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,139,9.667,0" Click="button_Click"/>
         <TextBox x:Name="messageText" TextWrapping="Wrap" Margin="10.333,10,9.667,90.667" Grid.Column="1" TextChanged="messageText_TextChanged"/>
-        <TextBox x:Name="sendTxt" TextWrapping="Wrap" Grid.Column="1" Margin="10.333,0,9.667,25.667" Height="60" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="sendTxt" TextWrapping="Wrap" Grid.Column="1" Margin="10.333,0,9.667,25.667" Height="60" VerticalAlignment="Bottom" KeyDown="sendTxt_KeyDown"/>
         <Button x:Name="send_Btn" Content="send" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Margin="0,0,9.667,6.667" Grid.Column="1" Click="send_Btn_Click"/>
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,91,0,0" TextWrapping="Wrap" Text="Usrname" VerticalAlignment="Top"/>
-        <TextBox x:Name="usrNameTxt" HorizontalAlignment="Left" Height="23" Margin="39,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="usrNameTxt" Height="23" Margin="39,111,11.667,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
