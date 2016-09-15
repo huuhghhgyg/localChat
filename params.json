@@ -1,0 +1,6 @@
+{
+  "name": "Localchat",
+  "tagline": "通讯工具",
+  "body": "回主页:https://huuhghhgyg.github.io\r\n\r\n## 说明\r\n\r\n嗯...就是一个垃圾的自制通讯软件嘛...\r\n\r\n## 历代版本&软件说明\r\n\r\n## Beta1:\r\n服务端:\r\n\r\n![](/images/ChatSer1_0.png)\r\n\r\n客户端\r\n\r\n![](/images/Chat1_0.png)\r\n\r\n1，服务端可以给某个客户端发私信\r\n2，发送信息会显示时间\r\n3，简略地报错",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
